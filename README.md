@@ -9,4 +9,4 @@ Um jogo de xadrez simples e rápido, voltado para pessoas com um conhecimento pr
 Ao executar o jogo o servidor fica em estado de aguardo e o cliente precisa clicar em play para iniciar. 
 O cliente por ser as peças brancas, inicia a partida fazendo um movimento e em seguida o movimento é transmitido para o servidor. O servidor faz o seu movimento que é mandado para o cliente e assim sucessivamente até alguem dar xeque-mate.
 ## Nota
-Isso é apenas um projeto meia boca, não possui tratamento de regras do xadrez nem restricões.
+Isso é apenas um projeto meia boca, não possui tratamento de regras do xadrez nem restricões, ambos os jogadores conseguem mover todas as peças do tabuleiro.
