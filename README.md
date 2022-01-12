@@ -1,7 +1,7 @@
 # Blitz Chess
-Um jogo de xadrez simples e rápido, voltado para pessoas com um conhecimento prévio sobre as regras de xadrez. Desenvolvido utilizando sockets para gerar uma conexão cliente-servidor local e o auxilio da ferramnete SFML para o desenvolvimento grafico. 
+Um jogo de xadrez simples e rápido, voltado para pessoas com um conhecimento prévio sobre as regras de xadrez. Desenvolvido utilizando sockets para gerar uma conexão cliente-servidor local e o auxilio da ferramenta [SFML](https://www.sfml-dev.org/) para o desenvolvimento grafico. 
 ## Compilação
-- Projeto realizado no Windowns logo foi usado a biblioteca winsock para fazer a conexão cliente-servidor.
+- Projeto realizado no Windowns logo foi usado a biblioteca [winsock](https://docs.microsoft.com/pt-br/windows/win32/winsock/getting-started-with-winsock) para fazer a conexão cliente-servidor.
 - O trabalho foi desenvolvido utilizando o Clion, assim, dentro do CMakeList se encontra dois comandos de compilação semelhantes para poder compilar o executável do servidor e do cliente.
 - No comando add_executable é feito a linkagem de todas as bibliotecas com o servidor.cpp e um outro add_executable para o cliente.cpp assim é possível geral duas ferramentas de build no Clion. 
 - Como se trata de uma conexão cliente-servidor é preciso fazer a compilação inicialmente do servidor para ele poder ficar em estado de listen e ao executar o cliente, tenta-se a conexão entre eles.
